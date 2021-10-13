@@ -12,4 +12,8 @@ class Game{
         this.plant.render()
         this.brain.render()
     }
+
+    update(){
+        this.zombie.update()
+    }
 }

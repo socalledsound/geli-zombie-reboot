@@ -20,10 +20,12 @@ function preload(){
 
 function setup(){
     createCanvas(canvasWidth, canvasHeight)
+    frameRate(2)
     game = new Game(images)
 
 }
 
 function draw(){
+    game.update()
     game.render()
 }
